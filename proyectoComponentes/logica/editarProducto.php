@@ -14,9 +14,6 @@
 
 	if(!empty($nombreProducto) && !empty($descripcion) && !empty($tipo) && !empty($costo) && !empty($stock) && !empty($precio)) {
 		$query = ("UPDATE Productos SET Nombre ='".$nombreProducto."', Descripcion ='".$descripcion."', Tipo = '".$tipo."', Costo = ".$costo.", Stock = ".$stock.", Precio = ".$precio." WHERE ID_Producto =".$idProducto."");
-
-		
-
 		$resultado = mysqli_query($conexion,$query);
 		header('Location: ../productos.php?success=true'); //REGISTRO EXITOSO
 	}else {

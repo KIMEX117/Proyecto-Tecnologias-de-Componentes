@@ -291,8 +291,6 @@
 	<script src="plugins/chart.js/Chart.min.js"></script>
 	<script src="plugins/toastr/toastr.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
-	<?php
-		include_once('logica/cargarGraficasDashboard.php');
-	?>
+	<?php include_once('logica/cargarGraficasDashboard.php'); ?>
 </body>
 </html>

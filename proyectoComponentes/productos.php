@@ -25,15 +25,6 @@
 		.btn-registrar{
 			margin-bottom: 1rem;
 		}
-		/*input[type="file"] {
-		    display: none;
-		}
-		.custom-file-upload {
-		    border: 1px solid #ccc;
-		    display: inline-block;
-		    padding: 6px 12px;
-		    cursor: pointer;
-		}*/
 	</style>
  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -412,8 +403,6 @@
 	<script src="plugins/toastr/toastr.min.js"></script>
 	<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 	<script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
-	<?php
-		include_once('logica/scriptsProductos.php');
-	?>
+	<?php include_once('logica/scriptsProductos.php'); ?>
 </body>
 </html>
